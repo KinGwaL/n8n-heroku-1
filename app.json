@@ -48,15 +48,12 @@
     "formation": {
       "web": {
         "quantity": 1,
-        "size": "Production"
+        "size": "production"
       }
     },
     "addons": [
       {
-        "plan": "heroku-postgresql:standard-0",
-        "options": {
-          "version": "14"
-        }
+        "plan": "heroku-postgresql:standard-0"
       },
       {
         "plan": "papertrail:choklad"
